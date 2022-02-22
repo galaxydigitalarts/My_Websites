@@ -704,7 +704,23 @@ nav ul li {
     width: 100%;
 }
 
+nav .container ul li a {
+    width: 100%;
+    justify-content: start;
+    padding-left: 2rem;
+}
 
+nav .container ul li a:hover {
+    padding-left: 3rem;
+}
+
+nav button {
+    display: inline-block;
+    cursor: pointer;
+    background: transparent;
+    color: var(--color-black);
+    margin-right: 1rem;
+}
 
 
 
